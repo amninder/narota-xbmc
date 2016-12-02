@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="radio.narota" name="Radio Narota" version="0.1.0" provider-name="Amninder N Narota">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Radio Narota">
+            <info compressed="false">https://raw.githubusercontent.com/amninder/narota-xbmc/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/amninder/narota-xbmc/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/amninder/narota-xbmc/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Old radios</summary>
+            <description>This repo contains classic.[CR]I am still developing it.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
